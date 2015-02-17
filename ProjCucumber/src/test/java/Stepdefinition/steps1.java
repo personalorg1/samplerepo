@@ -9,7 +9,7 @@ public class steps1 {
 		// TODO Auto-generated method stub
 
 		
-		System.out.println("Hi");
+		System.out.println("Hi d");
 
 
 		System.out.println("Hi are");
