@@ -14,11 +14,11 @@
 			<version>2.43.0</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.8.21</version>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>info.cukes</groupId>

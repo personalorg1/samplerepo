@@ -6,8 +6,9 @@ import cucumber.api.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "Feature"
+		features = "Feature/scenarioutline.feature"
 		,glue={"Stepdefinition"}
+	
 		)
 public class TestRunner {
 

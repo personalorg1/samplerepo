@@ -30,7 +30,7 @@ public class TestScenarioSteps {
 		driver.findElement(By.xpath(".//*[@id='account']/a")).click();
 	}
 
-	@When("^User enters (\"(.*?)\") and (\"(.*?)\")$")
+	@When("^User enters ([^\"]*) and ([^\"]*)$")
 	public void user_enters_UserName_and_Password(String user,String pwd) throws Throwable {
 	 
 	  driver.findElement(By.id("log")).sendKeys(user); 	 
